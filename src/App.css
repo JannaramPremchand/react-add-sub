@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+*{
+    margin: 0;
+    padding: 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    font-family: Roboto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    backdrop-filter: blur(1rem);
+    border-top: 1px solid rgba(27, 126, 172, 0.2);
+    border-left: 1px solid rgba(124, 7, 7, 0.2);
+    box-shadow: 5px 5px 40px rgba(235, 51, 51, 0.2);
+  border-radius: 3px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .title{
+    padding-left: 20rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem ;
   }
-}
+  .button1{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+    position: relative;
+    left: 2rem;
+    background: rgb(20, 228, 210);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgb(20, 228, 210);
+    border-left: 1px solid rgb(20, 228, 210);
+    box-shadow: 5px 5px 40px rgb(20, 228, 210);
+    border-radius: 50px;
+  }
+  .button1:hover {
+    color: #111;
+    background: #39ff14;
+    box-shadow: 0 0 30px #39ff14;
+  }
+  .buttons{
+    padding-left: 10rem;
+    padding-top: 2rem;
+  }
+  .b1{
+    
+    width: 20rem;
+    height: 3rem;
+  }
+  .b2{
+   
+    width: 20rem;
+    height: 3rem;
+  }
+  .main{
+    height: 55vh;
+    width: 75vw;
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgb(20, 228, 210);
+    border-left: 1px solid rgb(20, 228, 210);
+    box-shadow: 5px 5px 10px rgb(20, 228, 210);
+    border-radius: 50px;
+    align-items: center;
+  }
+  .input1{
+    width: 70rem;
+    height: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background: rgb(20, 228, 210);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgb(20, 228, 210);
+    border-left: 1px solid rgb(20, 228, 210);
+    box-shadow: 5px 5px 40px rgb(20, 228, 210);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .result{
+    padding-top: 2rem;
+    padding-left: 30rem;
+  }
+
+   
+  
